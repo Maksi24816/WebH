@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+body{width:100%; height: 100%; position: relative; display: flex; align-items: center; justify-content: center; background-color: black;}
+.Body{width:100%; height: 100%; position: relative; overflow: hidden; user-select: none;}
+
+.Main{transition: linear 0.1s all 0s; display: flex; align-items: center; justify-content: center; flex-direction: column; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 100; background-color: black; background-image: url(../M_I/Menu.png); background-size: auto 100%; background-position: center; background-repeat: no-repeat;}
+
+.Main_Top{width: 60%; height: 8%; background-color: aliceblue; border-radius: 0 0 50px 50px; position: absolute; top: 0;}
+
+.Main_Center{width: 100%; flex: 1 1 auto; padding: 6.5% 0; position: relative; display: flex; align-items: center; justify-content: center; flex-direction: column;}
+.List{width: 80%; height: 65%; display: flex; margin-bottom: 3%; align-items: center; justify-content: center;}
+.List_CG{min-width: 35%; opacity: .65; height: 100%; position: relative; display: flex; align-items: center; justify-content: center; flex-direction: column;}
+.List_CG.Active{opacity: 1; min-width: 50%;}
+.CG_C{width: 85%; height: auto; border-radius: 25px;}
+.CG_G{width: 70%; height: 11.5%; border-radius: 0 0 25px 25px; background-color: aliceblue;}
+
+.List_Info{width: 50%; height: 35%; background-color: aliceblue; display: flex; align-items: center; justify-content: center; flex-direction: column;}
+.Info_Series{width: 65%; height: 25%; background-color: black;}
+.Info_Text{width: 80%; height: 75%; background-color: black;}
+
+.Main_Bottom{width: 40%; height: 8%; background-color: aliceblue; border-radius: 50px 50px 0 0; position: absolute; bottom: 0;}
+
+.Transition{transition: linear 1s all 0s; width: 100%; height: 100%; background-color: black; position: absolute; top: 0; left: 0; z-index: 99;}
+
+.Game{display: flex; justify-content: center; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-image: url(../M_I/Background/Test.jpg); background-size: 100% auto; background-position: center; z-index: 98;}
+
+.BoxG{z-index: 1; position: absolute; bottom: 0; width: 75%; height: 100%; display: flex; align-items: end; justify-content: space-evenly;}
+.G{width: 35%;}
+
+.MainGame{z-index: 2; height: 33%; width: 100%; position: absolute; bottom: -3%; user-select: none; display: flex; align-items: center; justify-content: center; background-image: url(../M_I/TextBar/1.png); background-position: center; background-size: 75% 100px; background-repeat: no-repeat;}
+.SL{width: 3%; height: auto; position: absolute; left: 6%;}
+.TextBar{width: 80%; height: 100%; display: flex; align-items: center; justify-content: center; position: relative;  background-image: url(../M_I/TextBar/TB.png); background-size: 100% auto; background-repeat: no-repeat;}
+#Name{position: absolute; width: 17%; height: 9%; bottom: 80%; left: 12.5%; display: flex; align-items: center; justify-content: center; font-size: 26px; color: red;}
+.TextBar_P{width: 86%; height: 50%; padding: 0; overflow: hidden; font-size: 23px; color: rgb(255, 225, 0); margin-top: 10px;}
+.SR{width: 3%; height: auto; position: absolute; right: 6%;}
+
